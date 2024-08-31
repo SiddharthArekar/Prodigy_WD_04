@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1 class="animated fadeIn">Hello, I'm Siddharth Arekar</h1>
+            <p class="animated fadeIn delay-1s">Web Developer & Designer</p>
+            <img src="/profile-icon-design-free-vector.jpg" alt="Profile Photo" class="profile-photo animated fadeIn delay-2s">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title animated fadeInUp">About Me</h2>
+        <p class="about-text animated fadeInUp delay-1s">I am a passionate web developer with experience in creating interactive and responsive websites. I love coding and enjoy solving problems.</p>
+        <p class="about-text animated fadeInUp delay-1s">Education: Bachelor of Science in Computer Science</p>
+        <p class="about-text animated fadeInUp delay-1s">Experience: 3 years of experience in web development</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title animated fadeInUp">Projects</h2>
+        <div class="project-item animated fadeInUp delay-1s">
+            <h3>Project 1: Tic-Tac-Toe</h3>
+            <img src="/tic-tac-toe-logo.png" alt="Project 1" class="project-photo">
+            <a href="https://github.com/SiddharthArekar/Prodigy_WD_02.git"> <br>Check me!</a>
+            <p>Description of project 1:
+                <br>
+            </p>
+        </div>
+        <div class="project-item animated fadeInUp delay-1s">
+            <h3>Project 2: Weather Application</h3>
+            <img src="/weather.png" alt="Project 2" class="project-photo">
+            <a href="https://github.com/SiddharthArekar/Prodigy_WD_05.git"><br>Check me!</a>
+            <p>Description of project:
+                <br>Tracks the user's location
+                <br>Updates the user on weather changes as they travel 
+                <br>Vibrates when there's a flash flood or tornado warning 
+                </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title animated fadeInUp">Contact Us</h2>
+        <div class="contact-container animated fadeInUp delay-1s">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Address</h3>
+                    <p>Reva University<br>Bangalore, Grave Yard</p>
+                </div>
+                <div class="contact-card">
+                    <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Phone Number</h3>
+                    <p>+91 7619381448<br></p>
+                </div>
+                <div class="contact-card">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>SiddharthArekar4@gmail.com</p>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <label for="name">Enter your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Enter a valid email address:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
